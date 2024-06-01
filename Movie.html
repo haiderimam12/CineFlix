@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="Movie.css" />
+</head>
+
+<body>
+    <!------------------------------------ Navbar ------------------------------------>
+    <header>
+        <a href="#" class="logo"><i class="bx bxs-movie"></i>CineFlix</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!------------------------------------ Menu ------------------------------------>
+
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Coming</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+
+        <a href="#" class="btn">Sign In</a>
+    </header>
+
+    <!------------------------------------ Home ------------------------------------>
+
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!------------------------------------ Box 1 ------------------------------------>
+
+            <div class="swiper-slide container">
+                <img src="panchayat.jpg" alt="" />
+                <div class="home-text">
+                    <span>Amazon Prime</span>
+                    <h1>Panchayat<br />Season 3</h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class="bx bx-play-circle"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------------------------ Box 2 ------------------------------------>
+
+            <div class="swiper-slide container">
+                <img src="the conjuring.jpg" alt="" />
+                <div class="home-text">
+                    <h1>The Conjuring</h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class="bx bx-play-circle"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------------------------ Box 3 ------------------------------------>
+
+            <div class="swiper-slide container">
+                <img src="batman.jpg" alt="" />
+                <div class="home-text">
+                    <h1>
+                        Batman
+                    </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class="bx bx-play-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!------------------------------------ Movies ------------------------------------>
+
+    <section class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+
+        <!------------------------------------ Movies Container ------------------------------------>
+
+        <div class="movies-container">
+            <!------------------------------------ Box 1 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="mr ans mrs mahi.jpg" alt="" />
+                </div>
+                <h3>Mr and Mrs Mahi</h3>
+                <span>2hr 19min | Comedy | Drama</span>
+            </div>
+
+            <!------------------------------------ Box 2 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="maidaan.jpg" alt="" />
+                </div>
+                <h3>Maidaan</h3>
+                <span>3hr 1min | Biography | Drama</span>
+            </div>
+
+            <!------------------------------------ Box 3 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="bhaiya ji.jpg" alt="" />
+                </div>
+                <h3>Bhaiyya Ji</h3>
+                <span>2hr 30min | Comedy | Action</span>
+            </div>
+
+            <!------------------------------------ Box 4 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="ganapath.jpg" alt="" />
+                </div>
+                <h3>Ganapath</h3>
+                <span>2hr 13min | Drama | Action</span>
+            </div>
+
+            <!------------------------------------ Box 5 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="shaitaan.jpg" alt="" />
+                </div>
+                <h3>Shaitaan</h3>
+                <span>2hr 12min | Drama | Horror | Thriller </span>
+            </div>
+
+            <!------------------------------------ Box 6 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="awmw.jpg" alt="" />
+                </div>
+                <h3>Ae Watan Mere Watan</h3>
+                <span>2hr 13min | Biography | Drama | History</span>
+            </div>
+
+            <!------------------------------------ Box 7 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="Animal.jpg" alt="" />
+                </div>
+                <h3>Animal</h3>
+                <span>3hr 24min | Drama | Action | Crime</span>
+            </div>
+
+            <!------------------------------------ Box 8 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="fighter.jpg" alt="" />
+                </div>
+                <h3>Fighter</h3>
+                <span>2hr 46min | Action | Thriller</span>
+            </div>
+
+            <!------------------------------------ Box 9 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="dunki.jpg" alt="" />
+                </div>
+                <h3>Dunki</h3>
+                <span>2hr 40min | Comedy | Adventure | Drama</span>
+            </div>
+
+            <!------------------------------------ Box 10 ------------------------------------>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="12thfail.jpg" alt="" />
+                </div>
+                <h3>12th Fail</h3>
+                <span>2hr 30min | Biography | Drama</span>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------ Coming ------------------------------------>
+
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+
+        <!------------------------------------ Coming Container ------------------------------------>
+
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <!------------------------------------ Box 1 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="kalki.webp" alt="" />
+                    </div>
+                    <h3>Kalki</h3>
+                </div>
+
+                <!------------------------------------ Box 2 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="kota factory s3.jpg" alt="" />
+                    </div>
+                    <h3>Kota Factory Season 3</h3>
+                </div>
+
+                <!------------------------------------ Box 3 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="devara.webp" alt="" />
+                    </div>
+                    <h3>Devara</h3>
+                </div>
+
+                <!------------------------------------ Box 4 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="ipf.jpg" alt="" />
+                    </div>
+                    <h3>Indian Police Force Season 1</h3>
+                </div>
+
+                <!------------------------------------ Box 5 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="ranneeti.jpg" alt="" />
+                    </div>
+                    <h3>Ranneeti Season 1</h3>
+                </div>
+
+                <!------------------------------------ Box 6 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="pushpa 2.jpg" alt="" />
+                    </div>
+                    <h3>Pushpa 2</h3>
+                </div>
+
+                <!------------------------------------ Box 7 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="gotgvol3.jpg" alt="" />
+                    </div>
+                    <h3>Guardian Of The Galaxy Vol. 3</h3>                </div>
+
+                <!------------------------------------ Box 8 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="kotpota.jpg" alt="" />
+                    </div>
+                    <h3>Kingdom Of The Planet Of The Apes</h3>
+                </div>
+
+                <!------------------------------------ Box 9 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="spiderman.jpg" alt="" />
+                    </div>
+                    <h3>Spider Man Across The Spider-Verse</h3>
+                </div>
+
+                <!------------------------------------ Box 10 ------------------------------------>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="joker2.jpg" alt="" />
+                    </div>
+                    <h3>Joker</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------ News Letter ------------------------------------>
+
+    <section class="newsletter" id="newsletter">
+        <h2>
+            Subscribe To Get <br />
+            Newsletter
+        </h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Enter Email..." required />
+            <input type="submit" value="Subscribe" class="btn" />
+        </form>
+    </section>
+
+    <!------------------------------------ Footer ------------------------------------>
+
+    <section class="footer">
+        <a href="#" class="logo"> <i class="bx bxs-movie"></i>CineFlix</a>
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-meta"></i></a>
+        </div>
+    </section>
+
+    <!------------------------------------ Copyright ------------------------------------>
+
+    <div class="copyright">
+        <p>&#169; BollyVibes All Right Reserved.</p>
+    </div>
+
+    <!------------------------------------ Swiper JS ------------------------------------>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!------------------------------------ JS ------------------------------------>
+
+    <script src="Movie.js"></script>
+</body>
+
+</html>
